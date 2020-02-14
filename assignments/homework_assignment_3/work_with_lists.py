@@ -1,6 +1,6 @@
 #Fu An Yang
 #1051888
-#Assignment#2
+#Assignment#3
 #2/16
 grocery=["banana","milk","egg","bread","shampoo"]
 price=[2,7,5,4,10]
