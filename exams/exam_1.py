@@ -1,9 +1,9 @@
 ###################################
 #             Exam 1
 ###################################
-# Name
-# StudentId
-# Date
+# Name Fu An Yang
+# StudentId 1051888
+# Date 3/2/2020
 
 ###################################
 #             Sample Output
@@ -34,28 +34,30 @@
 
 ###################################
 
-grocery_list = ["apples", "spinach", "eggs", "chicken" "green beans", "potatoes"]
+grocery_list = ["apples", "spinach", "eggs", "chicken", "green beans", "potatoes"]
 
-grocery_item_price = [2.99, 3.99 4.99, 4.49, 1.99, 3.49]
+grocery_item_price = [2.99, 3.99, 4.99, 4.49, 1.99, 3.49]
 
 
 print("---------------------------------")
 print("            Grocery List")
 print("---------------------------------")
 
-for i in range(len(grocery_lst)):
-    print(grocery_list[i])
+for i in range(len(grocery_list)):
+    print(grocery_list[i].title())
 
 
 print("---------------------------------")
 print("              Receipt")
 print("---------------------------------")
 
-grocery_bll_total = 0
+grocery_bill_total = 0
 for i in range(len(grocery_list)):
-    print("$" + grocery_item_price[i] + ": " + grocery_list[1].upper())
-    grocery_bill_total = grocery_item_price[i]
+    print("$" + str(grocery_item_price[i]) + ": " + grocery_list[i].upper())
+grocery_bill_total =sum(grocery_item_price)
 
 print("---------------------------------")
 print("Total:")
 print("${0:.2f}".format(grocery_bill_total))
+
+
