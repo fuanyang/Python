@@ -1,3 +1,8 @@
+#Fu An Yang
+#1051888
+#Assignment#5
+#3/29
+
 menu_items_in_stock=["Tacos","Chips","Salsa","Quesadilla"]
 Customer_order=["Tacos","Gucamole","Burrito","Chips","Salsa"]
 new_menu=[menu.lower() for menu in menu_items_in_stock]
