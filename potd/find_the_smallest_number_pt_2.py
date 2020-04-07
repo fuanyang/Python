@@ -1,6 +1,6 @@
 #Fu An Yang
 #1051888
-#potd#6
+#potd#7
 #4/12
 list_of_numbers=[23,30,1,23,45,8,3,52]
 i=0
