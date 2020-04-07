@@ -1,5 +1,8 @@
+#Fu An Yang
+#1051888
+#potd#6
+#4/12
 list_of_numbers=[23,30,1,23,45,8,3,52]
-
 i=0
 current=list_of_numbers[0]
 while i< len(list_of_numbers)-1:
